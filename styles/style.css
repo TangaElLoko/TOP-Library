@@ -1,0 +1,29 @@
+:root {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #052860, #7ff2ce);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.library-container {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+}
+
+.book-item {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    padding: 2rem;
+    text-decoration: none;
+}
